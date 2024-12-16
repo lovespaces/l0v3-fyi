@@ -177,7 +177,7 @@ function finishTheLine(){
     );
     html_result.insertAdjacentHTML(
         'beforeend',
-        '<p id="others"><span id="gray">' + ms_seconds + ' seconds</span><br><span id="backspace_total" id="gray">\n: ' + backspace_type + '</span><br><br><span id="green">正 ' + success_type + '\n</span>\n<span id="gray"> / ' + all_type + ' / ' + all_length + '\n</span>\n<br>\n<span id="red">誤 ' + missed_type + '\n</span>\n<span id="gray"> / ' + all_type + ' / ' + all_length + '\n</span>\n<br>\n<span id="yellow">抜 ' + didnt_type + '\n</span>\n<span id="gray"> / ' + all_type + ' / ' + all_length + '\n</span>\n<br><br><span id="gray">BS ... Backspace<br>入力 / 総入力数 / お題文字数</span></p>'
+        '<p id="others"><span id="gray">' + ms_seconds + ' seconds</span><br><span id="backspace_total" id="gray">\n: ' + backspace_type + '</span><br><br><span id="green">正 ' + success_type + '\n</span>\n<span id="gray"> / ' + all_type + ' / ' + all_length + '\n</span>\n<br>\n<span id="red">誤 ' + missed_type + '\n</span>\n<span id="gray"> / ' + all_type + ' / ' + all_length + '\n</span>\n<br>\n<span id="yellow">抜 ' + didnt_type + '\n</span>\n<span id="gray"> / ' + all_type + ' / ' + all_length + '\n</span>\n<br><br><span id="gray">入力 / 総入力数 / お題文字数</span></p>'
     );
 }
 

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 html, body {
     user-select: none;
@@ -30,4 +31,79 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+#name {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 50px
+}
+
+.portfolio {
+    display: flex; /* フレックスボックスを適用 */
+    justify-content: center; /* 子要素を横方向で中央揃え */
+    align-items: center; /* 子要素を縦方向で中央揃え */
+    gap: 5vh; /* 各要素の間隔を調整 */
+}
+
+.portfolio > span {
+    border: 3px solid white;
+    color: white;
+    padding: 20px 70px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+#sokoban:hover, #practico:hover {
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.green, .red, .yellow {
+    color: black;
+    border-radius: 5px;
+    padding: 2.5px; /* 上下を0、左右を調整 */
+    display: inline-block;
+    line-height: 1; /* 背景が行の高さと一致するように調整 */
+    vertical-align: middle; /* 要素を中央揃え */
+}
+
+.green {
+    background-color: #40ff3d;
+}
+
+.red {
+    background-color: #fc4545;
+}
+
+.yellow {
+    background-color: #ecd928;
+}
+
+.log {
+    line-height: 2; /* 行の高さを調整（全体のバランスを取る） */
+}
+
+
+#green {
+    color: #40ff3d;
+}
+
+#red {
+    color: #fc4545;
+}
+
+#yellow {
+    color: #ecd928;
+}
+
+#gray {
+    color: rgb(53, 53, 53);
+}
+
+#practico-result {
+    font-size: 20px;
 }
