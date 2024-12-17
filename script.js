@@ -6,6 +6,6 @@ $("#sokoban").click(
 
 $("#practico").click(
     function() {
-        window.open("https://l0v3.fyi/keyboard_practico", "_self");
+        window.open("https://l0v3.fyi/keyboard", "_self");
     }
 );
