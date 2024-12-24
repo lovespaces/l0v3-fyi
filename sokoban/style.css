@@ -1,24 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap');
 
-html, body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
-
 html {
     touch-action: manipulation;
-    display: table;
-  }
+}
 
 body {
     font-family: "Geist Mono";
-    background-color: #1c1e20;
-    color: white;
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
 }
 
 button {
